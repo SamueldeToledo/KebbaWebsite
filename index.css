@@ -1,0 +1,164 @@
+body{
+   width: 100%;
+   height: 100%;
+   overflow-x: hidden;
+ background: linear-gradient(#233329,
+ #63D471);
+ background-attachment: fixed;
+}
+
+.MenuPrincipal {
+ background-color: #2a3c29;
+ color: #DCDCDC;
+ height:50px;
+ width: 100%;
+ font-size: 20px;
+}
+
+main{
+    margin: 0 auto;
+    width: 1880px;
+    position:relative;
+  
+}
+
+.logoKebba p {
+    position: absolute;
+    top: -17%;
+    left: 119px;
+}
+
+div.WelcomeTo{
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+ 
+.WelcomeTo{
+  border: none;
+  width: 450px;
+  font-size: 35px;
+  position: relative;
+  top: 37%;
+  opacity: 0;
+  left: 32%;
+  text-align: center;
+  color:#4ec34e;;
+  background-color: #c0eda7;
+  border-radius: 40px;
+}
+
+@keyframes aparecer{
+  from{
+    opacity:0;
+  }
+  to{
+      opacity:1;
+  }
+}
+
+div.KnowUs{
+  animation-name: aparecer2;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes aparecer2{
+  from{
+    opacity:0;
+  }
+  to{
+      opacity:1;
+  }
+}
+
+.KnowUs{
+  text-align: center;
+  font-size: 22px;
+  position: relative;
+  top: 55%;
+  position: relative;
+  right: 2%;
+ color: #c9ddc2;
+}
+
+
+
+ .introduction{
+    font-size:30px;
+    position: relative;
+    top:90%;
+    color: #c9ddc2;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+}
+ 
+  
+.KebbaFamilly img{
+  height: 280px;
+  position: relative;
+  top: 650px;
+  left: 990px;
+  border: solid 5px;
+  border-color:#c9ddc2;
+  border-radius: 10px;
+}
+
+#Continues{
+  text-align: center;
+  position: relative;
+  top: 413px;
+  border: none;
+  font-size: 23px;
+  border-radius: 20px;
+  width: 851px;
+  color: #c9ddc2;
+}
+
+
+
+button#Donation {
+  color:#585454;
+  background-color: #c0eda7;
+  height: 40px;
+  width: 190px;
+  text-align: center;
+  position: relative;
+  top: 616px;
+  left: 500px;
+  border: none;
+  font-size: 26px;
+  border-radius: 10px;
+}
+button#Instagram {
+  color:#585454;
+  height: 40px;
+  width: 190px;
+  text-align: center;
+  position: relative;
+  top: 616px;
+  left: 530px;
+  border: none;
+  font-size: 26px;
+  border-radius: 10px;
+  background-color: #c0eda7;
+}
+
+button{
+  text-decoration: none;
+  color: #233329;;
+}
+
+#instagram a{
+  text-decoration: none;
+  color: #233329;;
+}
+
+#donation a{
+  text-decoration: none;
+  color:#233329;
+}
